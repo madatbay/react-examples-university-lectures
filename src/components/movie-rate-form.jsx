@@ -67,7 +67,7 @@ const MovieRateForm = ({ movies, setMovies }) => {
         </div>
         {error.length > 0 && <p className="error">{error}</p>}
         <button className="button" type="submit">
-          + Add movie
+          Rate movie
         </button>
       </form>
     </div>
