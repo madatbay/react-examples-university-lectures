@@ -5,7 +5,7 @@ Respository of mine where I keep examples I used in university lectures.
 ## Get started
 
 1. Clone repository.
-2. `cd react-examples-university-lectures/`
+2. `cd react-university-lecture-projects/`
 3. Install dependencies and start project.
 4. Change git branch to desired example.
 
