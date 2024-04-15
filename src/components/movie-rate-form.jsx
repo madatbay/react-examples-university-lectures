@@ -35,7 +35,7 @@ const MovieRateForm = ({ movies, setMovies }) => {
       <h2 className="title">Rate a movie</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
-          <label htmlFor="category">Category</label>
+          <label htmlFor="movie">Movie</label>
           <select value={selectedMovie} name="selectedMovie" onChange={(e) => setSelectedMovie(e.target.value)}>
             <option value="">------</option>
             {movies.map((movie) => (
