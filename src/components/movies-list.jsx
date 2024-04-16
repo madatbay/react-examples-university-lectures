@@ -7,7 +7,8 @@ const MoviesList = ({ movies }) => {
           <p className="movie__description">{movie.description}</p>
           <span className="movie__category">{movie.category}</span>
           <div className="movie__ratings">
-            {movie.ratings.length > 0 ? (movie.ratings.reduce((a, b) => a + b) / movie.ratings.length).toFixed(1) : 0} ⭐
+            {movie.ratings.length > 0 ? (movie.ratings.reduce((a, b) => a + b) / movie.ratings.length).toFixed(1) : 0} ⭐ (
+            {movie.ratings.length})
           </div>
         </div>
       ))}
